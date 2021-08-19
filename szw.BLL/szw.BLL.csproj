@@ -41,7 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IBaseBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UsersBLL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\szw.DAL\szw.DAL.csproj">
+      <Project>{a7c8fc6e-d83a-418c-9b33-dc6712550d58}</Project>
+      <Name>szw.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\szw.Model\szw.Model.csproj">
+      <Project>{ede836e2-fbd8-4768-b045-6458dc30be14}</Project>
+      <Name>szw.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

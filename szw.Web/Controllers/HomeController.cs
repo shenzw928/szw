@@ -10,6 +10,11 @@ namespace szw.Web.Controllers
     {
         public ActionResult Index()
         {
+            BLL.UsersBLL bll = new BLL.UsersBLL();
+            Model.Users u = new Model.Users { ID = 1 };
+
+            var m = bll.GetModel(u);
+
             return View();
         }
 
