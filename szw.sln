@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szw.BLL", "szw.BLL\szw.BLL.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szw.Model", "szw.Model\szw.Model.csproj", "{EDE836E2-FBD8-4768-B045-6458DC30BE14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szw.Helper", "szw.Helper\szw.Helper.csproj", "{80432F6A-7CC4-4257-8288-10F46761D497}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{EDE836E2-FBD8-4768-B045-6458DC30BE14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDE836E2-FBD8-4768-B045-6458DC30BE14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDE836E2-FBD8-4768-B045-6458DC30BE14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80432F6A-7CC4-4257-8288-10F46761D497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80432F6A-7CC4-4257-8288-10F46761D497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80432F6A-7CC4-4257-8288-10F46761D497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80432F6A-7CC4-4257-8288-10F46761D497}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
